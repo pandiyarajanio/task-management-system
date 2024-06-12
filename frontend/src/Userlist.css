@@ -1,0 +1,44 @@
+.users-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .table-wrapper {
+    display: none;
+  }
+  
+  .carousel-wrapper {
+    display: block;
+  }
+  
+  /* Styles for desktop view */
+  @media (min-width: 768px) {
+    .table-wrapper {
+      display: block;
+    }
+    .carousel-wrapper {
+      display: none;
+    }
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .users-table th, .users-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .users-table th {
+    text-align: left;
+  }
+  
+  .carousel-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

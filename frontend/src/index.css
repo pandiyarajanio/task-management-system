@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.web-page{
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.select-home{
+  padding: 35px 75px 0px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.navber-home{
+  padding: 35px 75px 0px;
+  font-size: larger;
+}
+
+/* admin login page css */
+
+.admin-login{
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.form-labal{
+  margin-left: 40%;
+  margin-top: 4%;
+}
+.admininputboxSize{
+  width: 38%;
+}
+
+.task-form{
+  margin-left: 9%;
+}
+
+@media screen and (max-width: 740px){
+  html,body{
+    overflow-x: hidden;
+  }  
+  .admininputboxSize{
+    width: 88%;
+  }
+  .form-labal{
+    margin-left: 3%;
+  }
+  
+}
+
+/* Dapartmentlist style */
+
+
+.department-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.table-wrapper {
+  display: none;
+}
+
+.carousel-wrapper {
+  display: block;
+}
+
+/* Styles for desktop view */
+@media (min-width: 768px) {
+  .table-wrapper {
+    display: block;
+  }
+  .carousel-wrapper {
+    display: none;
+  }
+}
+
+.department-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.department-table th, .department-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.department-table th {
+  /* background-color: #f2f2f2; */
+  text-align: left;
+}
+
+.carousel-item {
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
